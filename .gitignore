@@ -1,0 +1,28 @@
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore log files
+*.log
+
+# Node modules (only if you add Node.js packages later)
+node_modules/
+
+# Build / dist directories (if used in future)
+dist/
+build/
+
+# IDE/editor folders and settings
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# OS-specific
+*.swp
+*.bak
+*~
+
+# Optional: ignore environment config if used in future
+.env
+.env.local
